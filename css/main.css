@@ -1,0 +1,215 @@
+
+
+
+* {
+    list-style-type: armenian;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fcf6dd;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 26% 58%;
+    font-family: 'Arial';
+    font-size: 17px;
+    color: white;
+}
+
+.logotipo {
+    padding: 1px;
+    height: 70px;
+}
+
+.home {
+    width: 100%;
+    height: 75px;
+    background-color: #fff2df;
+    box-shadow: 5px 20px 20px 1px #0805053a;
+    display: flex;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 75px;
+}
+
+ul li a {
+    font-family: 'Arial' ;
+    color: #141313;
+    font-size: 23px;
+    letter-spacing: 1pt;
+    margin: 0 10px;
+    padding: 23px;
+}
+
+.atual {
+    background-color: rgb(247, 238, 216);
+    color: #fe0103;
+    border-radius: 70px;
+    padding: 25px;
+    width: 100px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #aa212146;
+    border-radius: 70px;
+    padding: 30px;
+    width: 100px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.363);
+}
+
+.titulo {
+    margin: 2% 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.textoHome {
+    color: white;
+    width: 500px;
+    margin: auto 50;
+    padding: 20px;
+    font-family: 'Arial';
+    letter-spacing: 0.2pt;
+    text-align: auto;
+}
+
+h2 {
+    padding: 20px 0;
+}
+.titulo{
+    width: auto;
+    height: auto;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.74);
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 20px;
+    border-radius: 100 px;
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+   
+    font-style: italic;
+    
+
+}
+
+.textocatalogo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: auto;
+    font-family: 'Arial';
+    font-size: 15px;
+    color: #fe0103;
+    width: 230px;
+    object-fit: cover;
+    margin: auto 0;
+}
+
+h3{
+    padding: 1px ;
+    font-family: 'Arial';
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.452);
+    text-align: left;
+}
+
+.imagem{
+    width: auto;
+    height: 400px;
+    text-align: right;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: large; 
+    border-radius: 70px;
+}
+footer{
+    color:black;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+
+}
+.imagemDeSorocaba{
+    border-radius: 20px;
+    
+    
+    
+}
+
+div#area {
+    background: rgba(0, 0, 0, 0.151);
+    padding: 15px;
+    width: 500px;
+    margin: 20px;
+    text-align: center;
+    font-style: Arial;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+
+.sanfona {
+    width: 805px;
+    height: 320px;
+    overflow: hidden;
+    margin: 100px auto;
+    box-shadow: 0 0 10px 1 px rgba(0, 0, 0, 0.219);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    
+}
+.sanfona ul {
+    width: 1500px;
+}
+
+.sanfona li {
+    position: reletive;
+    display: block;
+    width:  160px;
+    float: left;
+    border-left: 1px solid rgba(240, 28, 28, 0.007);
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s
+       
+}
+
+.sanfona ul :hover li {width: 40px;}
+
+.sanfona ul li:hover {width: 640px}
+
+.sanfona li img {
+    display: block;
+}
+.imagens{
+    width: auto;
+    height: 400px;
+    text-align: right;
+    margin-left: 1px;
+    margin-right: 100px;
+    font-size: large; 
+}
